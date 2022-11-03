@@ -15,8 +15,10 @@ Les permissions sont gérées avec [spatie permissions](https://spatie.be/docs/l
 
 ## Installation
 
-- Remplir les infos de la bdd dans le .env
+
+- Copier .env.example dans .env et remplir les infos de la bdd
 - `composer install`
+- `php artisan key:generate`
 - `php artisan migrate:fresh --seed`
 - `php artisan passport:install`
 - Remplir les lignes PASSPORT_PERSONAL_ACCESS_CLIENT_ID et PASSPORT_PERSONAL_ACCESS_CLIENT_SECRET du .env avec les 
