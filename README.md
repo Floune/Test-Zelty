@@ -12,6 +12,7 @@ Les permissions sont gérées avec [spatie permissions](https://spatie.be/docs/l
 ## Lancer les tests
 
 - `php artisan test`
+- Une collection postman est incluse
 
 ## Installation
 
